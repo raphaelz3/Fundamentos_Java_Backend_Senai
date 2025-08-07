@@ -107,21 +107,31 @@ public class Main {
 //        System.out.println("Resultado: " + result);
 //
 
-        //Encontre numeros Primos
-        int primo;
-        boolean ePrimo =true;
+//        //Verificar numero Primo
+//        int primo;
+//        boolean ePrimo =true;
+//
+//        System.out.printf("Digite um inteiro para verificar se é primo: ");
+//        primo = scan.nextInt();
+//
+//        if (primo > 0) {
+//            for (int n = 2; n < primo - 1; n++) {
+//                if (primo % n == 0)
+//                    ePrimo = false;
+//            }
+//            System.out.println("O número é primo: " + ePrimo);
+//        }else
+//            System.out.println("Digite um numero maior que 0.");
 
-        System.out.printf("Digite um inteiro para verificar se é primo: ");
-        primo = scan.nextInt();
+        //Listar todos os primos de 1 a 100
 
-        if (primo <= 100 && primo > 0) {
-            for (int n = 2; n < primo - 1; n++) {
-                if (primo % n == 0)
-                    ePrimo = false;
+        for (int n = 2 ; n <= 99; n++){
+            for (int i = 1 ; i <= 99; i++){
+                if (n % i == 0){
+
+                }
             }
-            System.out.println("O número é primo: " + ePrimo);
-        }else
-            System.out.println("Digite um numero menor que 100.");
+        }
 
         scan.close();
     }
