@@ -127,7 +127,10 @@ public class Main {
 
         for (int n = 2 ; n <= 99; n++){
             for (int i = 1 ; i <= 99; i++){
-                if (n % i == 0){
+                if (n == i)
+                    i++;
+                else
+                    if (n % i != 0){
 
                 }
             }
